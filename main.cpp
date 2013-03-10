@@ -157,7 +157,7 @@ using namespace std;
 // * The algorithm chosen to compute the maximum flow is
 //   Ford–Fulkerson [1] using breadth-first search to obtain the
 //   paths to the sink (also known as Edmonds–Karp [2]). Its time-complexity
-//   is O(|D union C| * |E|) (notation: Given a set S, |S| denotes its cardinality).
+//   is O(|D union C|^2 * |E|) (notation: Given a set S, |S| denotes its cardinality).
 //
 //   A recent publication claims to provide a linear-time algorithm [3] but
 //   I didn't look deeply into it.
