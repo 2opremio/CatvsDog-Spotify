@@ -175,6 +175,11 @@ using namespace std;
 //   This would actually be the first performance improvement I would
 //   consider.
 //
+//   A very good compromise solution would be to replace maps with
+//   unordered maps (hash tables) but they are C++11 (or TR1) and
+//   I don-'t wanna risk being incompatible with the corrector's
+//   compiler.
+//
 // [1] http://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm
 // [2] http://en.wikipedia.org/wiki/Edmonds%E2%80%93Karp_algorithm
 // [3] http://jorlin.scripts.mit.edu/Max_flows_in_O(nm)_time.html
